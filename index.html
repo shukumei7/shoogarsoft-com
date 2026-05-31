@@ -95,7 +95,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
-    <span class="footer-copy">© 2025 Shoogar Soft Inc.</span>
+    <span class="footer-copy">© <span id="copy-year"></span> Shoogar Soft Inc.</span>
     <div class="footer-links">
       <a href="mailto:corporate@shoogarsoft.com">corporate@shoogarsoft.com</a>
       <a href="privacy.html">Privacy Policy</a>
@@ -104,5 +104,6 @@
   </div>
 </footer>
 
+<script>document.getElementById('copy-year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
