@@ -327,6 +327,22 @@ nav {
   color: #c97d4a66;
 }
 
+.portfolio-status.live {
+  color: var(--accent);
+}
+
+.portfolio-link {
+  display: inline-block;
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--accent);
+  text-decoration: none;
+  margin-top: 6px;
+  transition: opacity 0.2s;
+}
+
+.portfolio-link:hover { opacity: 0.7; }
+
 /* ============================================================
    ABOUT SECTION
    ============================================================ */
