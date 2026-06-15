@@ -475,3 +475,59 @@ footer {
 }
 
 .legal a:hover { text-decoration: underline; }
+
+/* ============================================================
+   DEMO CTA
+   ============================================================ */
+.demo-cta {
+  background: var(--featured-bg);
+  border-top: 1px solid var(--featured-border);
+  border-bottom: 1px solid var(--featured-border);
+  padding: 72px 24px;
+  text-align: center;
+}
+.demo-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.demo-label {
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+.demo-cta h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.demo-cta p {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin: 0 auto 32px;
+  line-height: 1.7;
+}
+.demo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+}
+.demo-btn:hover {
+  background: #b36b3a;
+  transform: translateY(-1px);
+}
