@@ -513,6 +513,17 @@ footer {
   margin: 0 auto 32px;
   line-height: 1.7;
 }
+.demo-video {
+  max-width: 720px;
+  margin: 0 auto 32px;
+}
+.demo-video video {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--featured-border);
+  background: #000;
+}
 .demo-btn {
   display: inline-flex;
   align-items: center;
