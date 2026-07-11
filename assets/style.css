@@ -247,10 +247,14 @@ nav {
 
 .featured-link:hover { background: var(--nav-bg-hover); }
 
+.featured-card {
+  flex-direction: column;
+}
+
 .featured-video {
-  flex: 1 1 380px;
-  min-width: 0;
-  align-self: center;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .featured-video video {
