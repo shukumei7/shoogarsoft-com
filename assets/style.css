@@ -251,17 +251,18 @@ nav {
   flex-direction: column;
 }
 
+/* Full-bleed through the card padding so the video renders at the same
+   width as the RSP demo video (672px), not the 600px card interior. */
 .featured-video {
-  width: 100%;
-  max-width: 720px;
-  margin: 0 auto;
+  margin: 0 -36px -36px;
 }
 
 .featured-video video {
   display: block;
   width: 100%;
-  border-radius: var(--radius);
-  border: 1px solid var(--featured-border);
+  border: none;
+  border-top: 1px solid var(--featured-border);
+  border-radius: 0 0 var(--radius) var(--radius);
   background: #000;
 }
 
@@ -271,6 +272,7 @@ nav {
     padding: 24px;
     gap: 20px;
   }
+  .featured-video { margin: 0 -24px -24px; }
 }
 
 /* ============================================================
