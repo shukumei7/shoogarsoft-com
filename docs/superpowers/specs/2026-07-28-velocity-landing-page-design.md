@@ -32,11 +32,14 @@ All optimized assets land in `code/shoogar/assets/` with a `velocity-` prefix (e
 
 ## 2. Page Content (`apps/velocity/index.html`)
 
-- **Hero**: full-width banner background, `<h1>VELOCITY — Midnight Endless Run</h1>`, tagline ("NFS-Underground-inspired endless arcade street racer"), primary CTA button → `https://shoogar.itch.io/velocity-midnight-run` (`target="_blank" rel="noopener"`).
-- **Trailer**: embedded `<video>` (controls, preload="metadata", poster) — same markup pattern as the homepage's existing Scourr/RSP video embeds.
-- **Screenshot gallery**: responsive grid of the 6 compressed screenshots.
-- **Car roster**: 3 cards (Kaze GT-R — FWD hot hatch; Rampage 440 — RWD muscle; Tempest RS — AWD rally turbo), each with a one-line handling description pulled from the README.
-- **Footer CTA**: itch.io link repeated + a link back to `shoogarsoft.com` (mirrors Chroma Slider's "From Shoogar Soft" pattern, reusing the same wording style).
+Content and structure per creative direction (consulted 2026-07-28): copy stays terse, present-tense, "confident-shipped" — no future-tense language ("planned", "roadmap", "coming soon"), no genre-filler adjectives ("adrenaline-fueled", "immersive", "stunning"), no neon/synthwave word-salad, no comparisons to other titles. The CTA is repeated at least 3 times down the page (hero, after trailer, footer) rather than once at the bottom.
+
+1. **Hero**: full-width banner background, `<h1>One crash ends it. Everything before that is style.</h1>`, subhead ("An endless night-city street run. Weave traffic, thread near-misses, outrun the cops. One hard crash and it's over — in slow motion."), primary CTA button reading "Start the run" → `https://shoogar.itch.io/velocity-midnight-run` (`target="_blank" rel="noopener"`), with microcopy under the button: "No download. No sign-up. ~10 seconds to first corner."
+2. **Trailer**: the autopilot-sweep video, directly under the hero — the "prove it" moment. `autoplay muted loop playsinline` plus visible `controls` (so it demonstrates motion immediately but stays user-controllable), caption: "Real-time gameplay. Runs in your browser."
+3. **How it plays**: new section, 3 short beats (survive traffic → near-misses score → one crash ends it in slow motion), section header "Scrapes cost you speed. Crashes cost you everything." The near-miss screenshot (`05-near-miss.png`) lives here as the visual proof of the scoring hook — it moves out of the general gallery into this section.
+4. **Car roster**: 3 cards (Kaze GT-R — "Corners on rails"; Rampage 440 — "Straight-line violence"; Tempest RS — "Grips everything"), leading with the handling verb per the README, not stats. Second CTA repeat after this section.
+5. **Gallery**: responsive grid of the remaining 5 compressed screenshots (title, street-run, racer-encounter, high-speed-chase, cop-pursuit — near-miss moved to section 3 above), with the cop-pursuit shot captioned to call out pursuit AI as a differentiator, and mobile shots captioned "Plays on your phone."
+6. **Procedural credibility line + footer CTA**: one line ("Every mesh, texture, and sound is generated in code — no asset files") plus a final CTA repeat and a link back to `shoogarsoft.com` (mirrors Chroma Slider's "From Shoogar Soft" pattern, reusing the same wording style).
 
 ## 3. SEO / Homepage Wiring
 
