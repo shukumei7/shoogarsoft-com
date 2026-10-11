@@ -1,0 +1,33 @@
+VELOCITY - MIDNIGHT RUN  |  FACT SHEET
+
+Developer / publisher:  Shoogar Soft Inc. (Canada)
+Press contact:          Allan Bate, marketing@shoogarsoft.com
+Platform:               PC (Steam). A free browser demo is on itch.io.
+Release:                Steam Early Access, October 2026
+Price:                  $5.99 USD, unchanged when Early Access ends
+Early Access length:    roughly 6 to 12 months
+Genre:                  Arcade racing, night-city traffic racer
+Players:                Single player; online matchmaking; private Crew rooms for 2 to 4
+Input:                  Keyboard, gamepad, touch (browser)
+
+Steam:    https://store.steampowered.com/app/5023550
+Trailer:  https://www.youtube.com/watch?v=9gLx8shn14I
+Browser:  https://shoogar.itch.io/velocity-midnight-run
+Discord:  https://discord.gg/PYUYpVtqnP
+Press kit online: https://shoogarsoft.com/apps/velocity/press/
+
+SHORT DESCRIPTION
+Start 100th in a field of 100 cars on an endless night road and drive to the front. Near misses, scrapes and drifts score style while rival racers and cops chase you.
+
+FEATURES
+- Midnight Run: a 100-car field on an endless night road, with rivals, cops, new road types and rain arriving as the run goes on. Pick upgrades at each level-up.
+- Solo: eight districts, three of them mountain passes, with traffic density and race options (racers, cops, weather, repair pickups, timed mode, crashes off or Hardcore).
+- Online: matchmaking, plus private Crew rooms for 2 to 4 players.
+- Four cars with FWD, RWD and AWD handling; automatic or manual shifting with overrev risk.
+- Loadout of three abilities (Nitrous, EMP, Siren), 14 aftermarket parts and 8 tire compounds.
+
+AI DISCLOSURE
+AI tools were used during development, including for AI-assisted voice lines and background music. All AI-generated content was reviewed and curated by the developer.
+
+USAGE
+Screenshots, logos, capsules and the trailer may be used in coverage, reviews and videos without asking. Monetised videos and streams are welcome. Please do not alter the logo.
