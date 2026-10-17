@@ -26,6 +26,14 @@ wrangler pages deploy . --project-name shoogarsoft-com --commit-dirty=true
 
 This uploads all files in the directory and deploys to production immediately. No build step.
 
+**Deploy only from a clean tree where `HEAD == origin/main`.** `--commit-dirty=true` uploads whatever is on disk, including uncommitted edits and unpushed commits, so a deploy from a drifted tree silently replaces the live pages with stale or unreviewed ones (this happened on 2026-10: the live Velocity privacy page was reverted to an older version). Check first:
+
+```bash
+git fetch origin && git status -sb && git log origin/main..HEAD --oneline   # expect: clean, nothing ahead or behind
+```
+
+**`code/shoogar` is the only checkout of this repo and the deploy source.** Do not clone `shukumei7/shoogarsoft-com` anywhere else under `code/`; a second copy goes stale and a deploy from it overwrites the live site.
+
 ## GitHub
 
 Repo: https://github.com/shukumei7/shoogarsoft-com (public, under `shukumei7` account)
